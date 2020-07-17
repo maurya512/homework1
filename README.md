@@ -14,6 +14,11 @@ Using semantic element is not only a good practice as a programmer, they are hig
 
 Replacing the div elements not only made the code more readable to the naked eye, it made the code more shorter and precise.
 
-It had the same effect on css file as well.</p>
+Along with that I removed the ul and li tags and replace that with nav semantics. 
+
+Used article to specify independent, self-containe content. Figure to specify the image source and alt to describe what the image would look like in case it didn't load properly. 
+
+The css file had many style attributes that were the same for similar classes and div elements. Since we changed them into semantics, their corresponding style attributes also become more succint and accessible.
+</p>
 
 
